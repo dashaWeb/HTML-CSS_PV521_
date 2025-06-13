@@ -1,0 +1,74 @@
+h3 {
+    color: orange;
+}
+
+h4 {
+    color: green;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+@font-face {
+    font-family: "Cherry";
+    src: url(../fonts/Cherry\ Romance.otf);
+}
+@font-face {
+    font-family: "Cherry2";
+    src: url(../fonts/Cherry\ Romance.otf);
+}
+
+* {
+    color: purple;
+}
+
+p {
+    color: orange;
+}
+
+.test-class {
+    color: green;
+}
+
+#test-id {
+    color: rgb(220, 172, 155)
+}
+
+.format {
+    /* color: #81D8D0; */
+    color:rgb(202, 45, 131);
+    font-size:25px; /*0.5em;*/
+    text-align: justify;
+    text-align-last: center;
+    font-style: italic;
+    /*font-weight: bold; /*100 - 900; 400 - normal; 700 - bold*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Savate", sans-serif;
+    font-family: "Edu VIC WA NT Hand", cursive;
+    /* font-family: "Cherry"; */
+    text-transform: capitalize;
+    text-indent: 50px;
+    text-decoration: underline wavy gray 5px;
+    text-decoration-style: dotted;
+    line-height: 25px;
+    /* word-spacing: 15px;
+    letter-spacing: 15px; */
+    /* border: solid 10px orange;
+    border-top: solid 15px blue; */
+    /* border-width: 50px 15px 5px 30px; */
+    /* border-style: double dashed dotted solid; */
+    /* border-color: purple red blue black; */
+    /* border-width: 30px ; */
+    /* border-color: transparent black; */
+    border-style: solid;
+    border:solid 15px rgb(77, 5, 59);
+    border-radius:50% 15px;
+    padding: 30px 40px 50px 55px;
+    /* margin: 200px 50px; */
+    width:300px;
+    /* height: 100px; */
+    margin: 0 auto;
+    box-shadow: 10px 10px 15px black;
+    text-shadow: 1px 1px 1px black;
+}
