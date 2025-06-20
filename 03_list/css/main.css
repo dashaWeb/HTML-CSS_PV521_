@@ -1,0 +1,43 @@
+.list-1
+{
+    /* list-style-type: decimal-leading-zero; */
+    list-style-type: upper-roman;
+}
+
+.list-2{
+    list-style-type: square;
+    list-style-position: outside;
+}
+.list-3
+{
+    list-style-image: url(../img/9825060.jpg);
+}
+
+dl{
+    border:solid;
+    padding: 10px;
+    font-size: 18px;
+    color:brown;
+    font-style: italic;
+}
+dt{
+    /* text-align: center; */
+    font-weight: bold;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+dd{
+    text-decoration: underline;
+    color: black;
+    background-color: rgb(172, 213, 213);
+    margin: 0;
+    padding: 5px;
+    padding-left: 40px;
+}
+
+.list-3{
+    background-color: aliceblue;
+    border:solid;
+    margin-top: 5px;
+}
+    
