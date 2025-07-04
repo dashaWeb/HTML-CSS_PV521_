@@ -2,6 +2,12 @@
 {
     /* list-style-type: decimal-leading-zero; */
     list-style-type: upper-roman;
+    font-weight: bold;
+
+}
+
+span{
+    font-weight: normal;
 }
 
 .list-2{
@@ -40,4 +46,6 @@ dd{
     border:solid;
     margin-top: 5px;
 }
+.list-3 ul ol{
     
+}
