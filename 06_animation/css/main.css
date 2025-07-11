@@ -1,0 +1,201 @@
+/* .container{
+    width: 500px;
+    height: 500px;
+    border:solid;
+    margin: 50px;
+    margin-top: 100px;
+    position: relative;
+} */
+/* .box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+/* .box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    transition: background-color 3s ease-in, border-radius 1s;
+}
+.box:hover{
+    background-color: yellow;
+    border-radius: 0;
+} */
+
+/* .box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    animation: name duration timing-function delay iteration-count direction fill-mode; 
+    animation: circles 3s linear infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    
+}
+
+
+@keyframes circles{
+    0%{
+        background-color: red;
+        left: 0%;
+        top: 0;
+    }
+    25%{
+        background-color: red;
+        left: 79%;
+        top: 120px;
+    }
+    50%{
+        background-color: yellow;
+        left: 0%;
+        top: 240px;
+    }
+    75%{
+        background-color: red;
+        left: 79%;
+        top:360px;
+    }
+    100%{
+        background-color: green;
+        left: 0%;
+        top: 480px;
+    }
+} */
+
+/* .container{
+    width: 500px;
+    height: 500px;
+    border: solid;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.box{
+    box-sizing: border-box;
+    line-height: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: -550px;
+    width: 100%;
+    padding: 10px;
+    animation: line 3s linear infinite;
+}
+
+@keyframes line {
+    0%{
+        left: -550px;
+    }
+    100%{
+        left: 550px;
+    }
+} */
+img{
+    width: 250px;
+    margin: 10px;
+    transition: 2s;
+    cursor: pointer;
+}
+.container img:nth-child(1):hover
+{
+    transform: translateX(50px);
+}
+.container img:nth-child(2):hover
+{
+    transform: translateY(50px);
+}
+.container img:nth-child(3):hover
+{
+    transform: translate(50px,50px);
+}
+
+.container img:nth-child(4):hover
+{
+    transform: scaleX(-1);
+}
+.container img:nth-child(5):hover
+{
+    transform: scale(1.2);
+}
+
+
+.container img:nth-child(6){
+    transform-origin: top right;
+}
+
+.container img:nth-child(6):hover
+{
+    transform: rotate(-45deg);
+}
+
+.container img:nth-child(7):hover
+{
+    transform: skewX(-45deg);
+}
+.container img:nth-child(8):hover
+{
+    transform: skewY(-45deg);
+}
+.container img:nth-child(9){
+    filter: blur(20px);
+
+}
+.container img:nth-child(9):hover
+{
+    filter: blur(0);
+}
+.container img:nth-child(10):hover
+{
+    filter:brightness(0.5);
+}
+
+.container img:nth-child(11):hover
+{
+    filter:contrast(0.5)
+}
+
+.container img:nth-child(12):hover
+{
+    filter:grayscale(1)
+}
+
+.container img:nth-child(13):hover
+{
+    filter:hue-rotate(180deg)
+}
+
+.container img:nth-child(14):hover
+{
+    filter:invert(1)
+}
+.container img:nth-child(15):hover
+{
+    filter:opacity(0)
+}
+.container img:nth-child(16):hover
+{
+    filter:saturate(0.5)
+}
+.container img:nth-child(17):hover
+{
+    filter:sepia(2)
+}
+
+.container img:nth-child(18):hover
+{
+   /* box-shadow: 5px 5px 10px #000; */
+   filter:drop-shadow(5px 5px 10px #000);
+}

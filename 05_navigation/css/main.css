@@ -1,0 +1,39 @@
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-1 a {
+    background: #8AF5EB;
+    background: linear-gradient(180deg, rgba(138, 245, 235, 1) 0%, rgba(56, 180, 175, 1) 100%);
+    border: solid #38B4AF 1px;
+}
+
+.menu-1 a:hover {
+    background: #38B4AF;
+    background: linear-gradient(180deg, rgba(56, 180, 175, 1) 0%, rgba(35, 151, 151, 1) 100%);
+}
+
+.menu-2 a {
+    background: #88C2F3;
+    background: linear-gradient(180deg, rgba(136, 194, 243, 1) 0%, rgba(56, 115, 180, 1) 100%);
+    border: solid #3873B4 1px;
+}
+
+.menu-2 a:hover {
+    background: #68A9EC;
+    background: linear-gradient(180deg, rgba(104, 169, 236, 1) 0%, rgba(36, 84, 152, 1) 100%);
+}

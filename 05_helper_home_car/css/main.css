@@ -1,0 +1,17 @@
+.home img{
+    width: 300px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.secondary li{
+    display: inline;
+}
+.secondary img{
+    height: 150px;
+}
+p{
+    text-align: center;
+}
