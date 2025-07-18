@@ -1,0 +1,55 @@
+.container{
+    width: 800px;
+    margin: 0 auto;
+    border:ridge gray;
+    height: 860px;
+}
+.text{
+    width: 50%;
+    float: left;
+    text-align: center;
+    line-height: 287px;
+}
+
+.img{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    transition: 1s;
+    display: block;
+}
+.row{
+    position: relative;
+    clear: both;
+
+}
+.plashka{
+    background: rgba(0,0,0,.0);
+    height: 287px;
+    width: 100%;
+    position: absolute;
+    transition: 0.3s;
+}
+.row:hover .plashka{
+    background: rgba(0,0,0,.7);
+}
+.row:hover img{
+    transform: scale(1.2);
+}
+.task-3{
+    display: none;
+}
+
+.left{
+    width: 400px;
+    height: 150px;
+    background-color: brown;
+    transform-origin: right top;
+    transition: 2s;
+}
+.left:hover{
+    transform: perspective(100px) rotateY(-15deg);
+}
